@@ -5,6 +5,10 @@ import Hello from './Hello'
 import Yes from './Yes'
 import Counter from './Counter'
 import Profile from './Profile'
+import Mount from './Mount'
+import Update from './Update'
+import UpdateStar from './UpdateStar'
+import WindowToggler from './WindowToggler'
 
 export default class App extends React.Component {
 // Props are automatically generated
@@ -17,7 +21,11 @@ export default class App extends React.Component {
         {/* <Hello /> */}
         {/* <Yes /> */}
         {/* <Counter /> */}
-        <Profile />
+        {/* <Profile /> */}
+        {/* <Mount /> */}
+        {/* <Update /> */}
+        {/* <UpdateStar /> */}
+        <WindowToggler />
       </>
     )
   }
